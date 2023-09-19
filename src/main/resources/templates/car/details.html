@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Details car</title>
+</head>
+<body>
+<main>
+    <h1>details of car <span th:text="${car.brand}"></span></h1>
+    <hr>
+
+    <ul>
+        <li th:text="${car.id}"></li>
+        <li th:text="${car.brand}"></li>
+        <li th:text="${car.model}"></li>
+        <li th:text="${car.color}"></li>
+        <li th:text="${car.year}"></li>
+    </ul>
+
+</main>
+
+</body>
+</html>
